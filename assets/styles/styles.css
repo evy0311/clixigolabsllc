@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'alte_haas_groteskregular';
+    src: url('/assets/fonts/altehaasgroteskregular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/altehaasgroteskregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alte_haas_groteskbold';
+    src: url('/assets/fonts/altehaasgroteskbold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/altehaasgroteskbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #2b2d42;
+    color: #edf2f4;
+    font-family: 'alte_haas_groteskregular';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.logo {
+    height: 8em;
+    width: 75%;
+    height: auto;
+    max-width: 400px;
+}
+
+.main {
+    color: #edf2f4;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    padding: 0.5em;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    gap: 1em;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+.para {
+    text-align: center;
+    padding: 0 0 30px 0;
+    color: #edf2f4;
+    font-size: 1.1em;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0 30px 0;
+    color: #edf2f4;
+    font-size: 0.8em;
+}
+
+/* unvisited link */
+a:link {
+    color: #edf2f4;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #edf2f4;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #edf2f4;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #edf2f4;
+  }
+
+@media(max-width: 1024px) {
+    .main {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
